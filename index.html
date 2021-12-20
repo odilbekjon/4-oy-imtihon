@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/css/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/css/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/css/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>Imtihon</title>
+</head>
+<body>
+    <div class="container">
+        <div class="snow"></div>
+    </div> <!--end of snow-->
+
+    <div class="container">
+        <h1 class="h1 head ">Users api</h1>
+        <div class="box">
+        <div class="user__wrapp">
+            <h2 class="h2 user__title">Users</h2>
+            <p class="user__result">Count of users : <span id="result"></span></p>
+            <ul class="user__list" id="users"></ul>
+        </div> <!--end of user__wrapp-->
+
+        <div class="post__wrapp">
+            <h2 class="h2 post__titl">Posts</h2>
+            <p class="post__result">Count of users : <span id="post2"></span></p>
+            <ul class="post__list" id="post"></ul>
+        </div> <!--end of post__wrapp-->
+
+        <div class="comment__wrapp">
+            <h2 class="h2 comment__title">Comment</h2>
+            <p class="comment__result odil">Count of users : <span id="commentResult"></span></p>
+            <ul class="comment__list" id="comment"></ul>
+        </div> <!--end of post__wrapp-->
+    </div> <!--end of box-->
+            
+    </div> <!--end of container-->
+
+    <template id="template">
+        <div class="user" id="user">
+            <div class="user__id"></div>
+            <div class="user__name"></div>
+            <div class="user__email"></div> 
+            <div class="user__country"></div>
+            <div class="user__company"></div>
+            <div class="user__website"></div>
+        </div> <!--end of users-->
+    </template> <!--end of template-->
+
+    <template id="template__post">
+        <div class="post" id="post">
+            <div class="post__id"></div>
+            <div class="post__userid"></div>
+            <div class="post__title"></div> 
+            <div class="post__body"></div>
+        </div> <!--end of post-->
+    </template> <!--end of template__post-->
+
+    <template id="template__commit">
+        <div class="commit" id="commit">
+            <div class="commit__id"></div>
+            <div class="commit__name"></div>
+            <div class="commit__email"></div> 
+            <div class="commit__body"></div>
+        </div> <!--end of commit-->
+    </template> <!--end of template__commit-->
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
