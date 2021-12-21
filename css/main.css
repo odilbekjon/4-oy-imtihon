@@ -108,6 +108,7 @@ body{
 
 .user__email{
     display: flex;
+    margin-bottom:20px;
 }
 
 .user__country::before{
