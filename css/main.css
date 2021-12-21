@@ -76,7 +76,7 @@ body{
     font-weight: bold;
     font-style: normal;
     color: blanchedalmond;
-    line-height: 25px;
+    line-height: 30px;
 }
 .user__result{
     color: blanchedalmond;
@@ -89,7 +89,7 @@ body{
   font-weight: bold;
   margin-right: 10px;
   transform: translateY(-4px);
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .user__name{
@@ -103,7 +103,7 @@ body{
     font-weight: bold;
     margin-right: 10px;
     transform: translateY(-4px);
-    line-height: 25px;
+    line-height: 30px;
     margin-top:5px;
     
 }
@@ -119,7 +119,7 @@ body{
     font-weight: bold;
     margin-right: 10px;
     transform: translateY(-4px);
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .user__country{
@@ -133,7 +133,7 @@ body{
     font-weight: bold;
     margin-right: 10px;
     transform: translateY(-4px);
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .user__company{
@@ -147,7 +147,7 @@ body{
     font-weight: bold;
     margin-right: 10px;
     transform: translateY(-4px);
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .user__website{
