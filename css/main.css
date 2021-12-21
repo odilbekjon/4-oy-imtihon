@@ -104,11 +104,12 @@ body{
     margin-right: 10px;
     transform: translateY(-4px);
     line-height: 25px;
+    margin-top:5px;
+    
 }
 
 .user__email{
     display: flex;
-    margin-bottom:20px;
 }
 
 .user__country::before{
